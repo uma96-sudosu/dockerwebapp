@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: umasudosu9691:DBImage
+          image: umasudosu9691/k8s:DBImage
           ports:
             - containerPort: 3306
       imagePullSecrets:
