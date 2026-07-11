@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: umasusosu9691:APPImage
+          image: umasudosu9691:APPImage
           ports:
             - containerPort: 8080
       imagePullSecrets:
